@@ -1,0 +1,32 @@
+IT631 Laboratory 1 — Exit Ticket
+
+1. Layout Architecture:
+A sidebar shell is better suited for an administrative 
+DSSC portal because it can keep many services,
+ such as enrollments, grades, and faculty records,
+  organized in a consistent navigation area. It 
+  also leaves the main content area available for 
+  dashboards, tables, and forms; on smaller screens,
+   the layout should adapt so the navigation and
+    content remain usable.
+
+2. Responsive Tactics:
+For a six-column table on a 360px screen,
+ I would avoid squeezing every column until 
+ the text becomes unreadable. I would either place 
+ the table inside a clearly labeled 
+ horizontal-scroll container or transform each 
+ row into a stacked card with the column names
+  shown beside their values; the best choice
+   depends on how often users need to compare 
+   columns.
+
+3. Accessibility:
+Removing the browser outline without providing 
+another focus style makes it difficult for keyboard
+ users to tell which link, button, or field is 
+ currently selected. I used a clearly visible 3px
+  amber outline with an offset for :focus-visible,
+   along with explicit labels, helper text, error 
+   messages, and status feedback to make
+    interactions easier to follow.
